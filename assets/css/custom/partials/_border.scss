@@ -1,0 +1,114 @@
+$borders: (
+  //$border-type-list:
+        1:(
+          //$border-type-default:
+                '',
+                  //$border-type-top:
+                '-top',
+                  //$border-type-right:
+                '-right',
+                  //$border-type-bottom:
+                '-bottom',
+                  //$border-type-left:
+                '-left',
+        ),
+  //$border-style-list
+        2: (
+          //$border-style-dotted:
+                'dotted',
+                  //$border-style-dashed:
+                'dashed',
+                  //$border-style-solid:
+                'solid',
+                  //$border-style-double:
+                'double',
+                  //$border-style-groove:
+                'groove',
+                  //$border-style-ridge:
+                'ridge',
+                  //$border-style-inset:
+                'inset',
+                  //$border-style-outset:
+                'outset',
+                  //$border-style-none:
+                'none',
+                  //$border-style-hidden:
+                'hidden',
+        ),
+  //$border-colors-list
+        3: (
+          //$white:
+                '#fff',
+                  //$blue-light:
+                '#73c0ea',
+                  //$blue:
+                '#499ed7',
+                  //$bluex:
+                '#02a4f8',
+                  //$blue-dark:
+                '#11294a',
+                  //$blue-exdark:
+                '#0f1a2f',
+                  //$blue-exdark2:
+                '#222e48',
+                  //$green:
+                '#a8cf45',
+                  //$gray:
+                '#878787',
+                  //$gray-dark:
+                '#4b4b4b',
+                  //$gray-exdark:
+                '#252a2c',
+                  //$gray-light:
+                '#f1f1f1',
+                  //$gray-light1:
+                '#7f7f7f',
+                  //$gray-lightx:
+                '#595959',
+                  //$gray-brown:
+                '#a29a98',
+                  //$orange:
+                '#f89345',
+                  //$purple:
+                '#607dbc',
+                  //$magenta:
+                '#8f4a80',
+        ),
+);
+
+@mixin border {
+
+  @each $list_var in $borders {
+
+    $border-type-map: nth($list_var, 1);
+    $border-style-map: nth($list_var, 1);
+    $border-color-map: nth($list_var, 1);
+
+
+    @each $keyType, $valueType in $border-type-map {
+
+      @each $keyStyle, $valueStyle in $border-style-map {
+
+        @each $keyColor, $valueColor in $border-color-map {
+
+          @for $i from 0 through 10 {
+
+            .border#{$keyType}-#{$i} {
+
+              border#{$valueType}: #{$i} #{$valueStyle } #{$valueColor};
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@include border;

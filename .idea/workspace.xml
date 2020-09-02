@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1c5387e-fd33-417c-88bd-5e59f41b5cd9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1YLCAIdEpVqHb4ydMJMss3qmSkx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1c5387e-fd33-417c-88bd-5e59f41b5cd9" name="Default Changelist" comment="" />
+      <created>1582712342307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582712342307</updated>
+      <workItem from="1582712343391" duration="1976000" />
+      <workItem from="1582811773778" duration="9000" />
+      <workItem from="1583145510835" duration="1470000" />
+      <workItem from="1586993479377" duration="991000" />
+      <workItem from="1587027112844" duration="604000" />
+      <workItem from="1587245260952" duration="2641000" />
+      <workItem from="1587364020282" duration="1196000" />
+      <workItem from="1587449493841" duration="11000" />
+      <workItem from="1588573952210" duration="39000" />
+      <workItem from="1591203881821" duration="7022000" />
+      <workItem from="1591216248908" duration="1370000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="196" key="run.anything.popup" timestamp="1586993523642">
+      <screen x="0" y="0" width="1603" height="862" />
+    </state>
+    <state x="457" y="196" key="run.anything.popup/0.0.1603.862@0.0.1603.862" timestamp="1586993523642" />
+  </component>
+</project>

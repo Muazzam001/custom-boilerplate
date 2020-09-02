@@ -1,0 +1,54 @@
+/*      HEADER      */
+
+/*    Home Banner     */
+
+/*    /Home Banner    */
+
+/*    Pages Header    */
+
+.pages-header {
+
+  .navbar {
+
+    .navbar-toggler {
+
+      &.active, &:hover, &:focus, &:active {
+        outline: none;
+      }
+
+    }
+
+    .main-navbar {
+
+      .navbar-nav {
+
+        li {
+
+          &.nav-item {
+
+            .nav-link {
+
+              &.active, &:hover, &:focus, &:active {
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+/*    /Pages Header   */
+
+/*    Pages Banner    */
+
+/*    /Pages Banner   */
+
+/*      /HEADER      */

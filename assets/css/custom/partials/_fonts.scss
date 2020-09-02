@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../../../fonts/MYRIADPRO-REGULAR.OTF");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro-Light";
+  src: url("../../../fonts/MyriadPro-Light.otf");
+}
+
+@font-face {
+  font-family: "MyriadPro-Bold";
+  src: url("../../../fonts/MYRIADPRO-BOLD.OTF");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-Light";
+  src: url("../../../fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../../../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url("../../../fonts/Raleway-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("../../../fonts/Raleway-Bold.ttf");
+}
+
+
+$font-myriad: MyriadPro, OpenSans, Arial, Helvetica, sans-serif;
+
+$font-myriad-light: MyriadPro-Light, OpenSans, Arial, Helvetica, sans-serif;
+
+$font-myriad-bold: MyriadPro-Bold, OpenSans, Arial, Helvetica, sans-serif;
+
+$font-opensans: OpenSans, Arial, Helvetica, sans-serif;
+
+$font-raleway: Raleway, OpenSans, Arial, Helvetica, sans-serif;
+
+$font-raleway-light: Raleway-Light, OpenSans, Arial, Helvetica, sans-serif;
+
+$font-raleway-medium: Raleway-Medium, OpenSans, Arial, Helvetica, sans-serif;
+
+$font-raleway-bold: Raleway-Bold, OpenSans, Arial, Helvetica, sans-serif;
+
+
+//Font Family Start
+
+.font-myriad {
+  font-family: $font-myriad;
+}
+
+.font-myriad-light {
+  font-family: $font-myriad-light;
+}
+
+.font-myriad-bold {
+  font-family: $font-myriad-bold;
+}
+
+.font-opensans {
+  font-family: $font-opensans;
+}
+
+.font-raleway-light {
+  font-family: $font-raleway-light;
+}
+
+.font-raleway {
+  font-family: $font-raleway;
+}
+
+.font-raleway-medium {
+  font-family: $font-raleway-medium;
+}
+
+.font-raleway-bold {
+  font-family: $font-raleway-bold;
+}
+
+//Font Family End
