@@ -1,1 +1,1 @@
-# custom-boilerplate
+# CUSTOM BOILERPLATE
