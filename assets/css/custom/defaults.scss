@@ -1,233 +1,55 @@
+/*      NORMALIZE      */
+@import "helpers/normalize";
+/*      /NORMALIZE      */
+
+/*      ANIMATE      */
+@import "helpers/animate";
+/*      /ANIMATE      */
+
+/*      VARIABLES      */
+@import "partials/variable";
+/*      /VARIABLES      */
+
+/*      FONTS      */
+@import "partials/fonts";
+/*      /FONTS      */
+
+/*      COLORS      */
+@import "partials/color";
+/*      /COLORS      */
+
+/*      DIMENSIONS      */
+@import "partials/dimensions";
+/*      /DIMENSIONS      */
+
+/*      SPACING      */
+@import "partials/spacing";
+/*      /SPACING      */
+
+/*      BORDERS      */
+@import "partials/border";
+/*      /BORDERS      */
+
+/*      BORDER RADIUS      */
+@import "partials/border-radius";
+/*      /BORDER RADIUS      */
+
+/*      OVERFLOW      */
+@import "partials/overflow";
+/*      /OVERFLOW      */
+
+/*      POSITIONS      */
+@import "partials/positions";
+/*      /POSITIONS      */
+
+/*      ROTATION      */
+@import "partials/rotations";
+/*      /ROTATION      */
+
 /*      DEFAULTS      */
 
-/*      Rotations      */
-
-//Forward Rotate
-
-@for $i from 0 through 360 {
-
-  .rotate-#{$i} {
-    -webkit-transform: rotate(#{$i}deg);
-    -ms-transform: rotate(#{$i}deg);
-    transform: rotate(#{$i}deg);
-  }
-
-}
-
-//Forward Rotate End
-
-//Backward Rotate Start
-
-@for $i from 0 through 360 {
-
-  .rotate-n#{$i} {
-    -webkit-transform: rotate(-#{$i}deg);
-    -ms-transform: rotate(-#{$i}deg);
-    transform: rotate(-#{$i}deg);
-  }
-
-}
-
-//Backward Rotate End
-
-/*      /Rotations      */
-
-//Font Size Start
-
-@for $i from 0 through 50 {
-
-  .font-size-#{$i} {
-    font-size: #{$i/16}rem !important;
-  }
-
-}
-
-//Font Size End
-
-//Negative Margin Start
-
-@for $i from 0 through 10 {
-
-  .mg-n#{$i} {
-    margin: -#{$i/4}rem !important;
-  }
-
-  .mgx-n#{$i} {
-    margin-left: -#{$i/4}rem !important;
-    margin-right: -#{$i/4}rem !important;
-  }
-
-  .mgy-n#{$i} {
-    margin-top: -#{$i/4}rem !important;
-    margin-bottom: -#{$i/4}rem !important;
-  }
-
-  .mgt-n#{$i} {
-    margin-top: -#{$i/4}rem !important;
-  }
-
-  .mgr-n#{$i} {
-    margin-right: -#{$i/4}rem !important;
-  }
-
-  .mgb-n#{$i} {
-    margin-bottom: -#{$i/4}rem !important;
-  }
-
-  .mgl-n#{$i} {
-    margin-left: -#{$i/4}rem !important;
-  }
-
-}
-
-//Negative Margin End
-
-//Border Radius Start
-
-@for $i from 0 through 100 {
-
-  .border-radius-#{$i} {
-    -webkit-border-radius: #{$i}px !important;
-    border-radius: #{$i}px !important;
-  }
-
-  .border-radius-top-left-#{$i} {
-    -webkit-border-top-left-radius: #{$i}px !important;
-    border-top-left-radius: #{$i}px !important;
-  }
-
-  .border-radius-bottom-left-#{$i} {
-    -webkit-border-bottom-left-radius: #{$i}px !important;
-    border-bottom-left-radius: #{$i}px !important;
-  }
-
-  .border-radius-top-right-#{$i} {
-    -webkit-border-top-right-radius: #{$i}px !important;
-    border-top-right-radius: #{$i}px !important;
-  }
-
-  .border-radius-bottom-right-#{$i} {
-    -webkit-border-bottom-right-radius: #{$i}px !important;
-    border-bottom-right-radius: #{$i}px !important;
-  }
-
-}
-
-//Border Radius End
-
-//Width Start
-@for $i from 0 through 100 {
-
-  .w-xl-#{$i} {
-    width: $i*1% !important;
-  }
-
-  .mnw-xl-#{$i} {
-    min-width: $i*1% !important;
-  }
-
-  .mw-xl-#{$i} {
-    max-width: $i*1% !important;
-  }
-
-  .h-xl-#{$i} {
-    height: $i*1% !important;
-  }
-
-  .mnh-xl-#{$i} {
-    min-height: $i*1% !important;
-  }
-
-  .mh-xl-#{$i} {
-    max-height: $i*1% !important;
-  }
-
-}
-
-.w-xl-auto {
-  width: auto !important;
-}
-
-.h-xl-auto {
-  height: auto !important;
-}
-
-.mnh-xl-unset {
-  min-height: unset !important;
-}
-
-.mh-xl-unset {
-  max-height: unset !important;
-}
-
-//Width End
-
-//Border Start
-
-//@import 'components/border';
-
-//Border End
-
-//Overflow Start
-
-.overflow-x-hidden {
-  overflow-x: hidden !important;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden !important;
-}
-
-.overflow-x-visible {
-  overflow-x: visible !important;
-}
-
-.overflow-y-visible {
-  overflow-y: visible !important;
-}
-
-.overflow-x-auto {
-  overflow-x: auto !important;
-}
-
-.overflow-y-auto {
-  overflow-y: auto !important;
-}
-
-//Overflow End
-
-//Position Start
-
-.position-static {
-  position: static !important;
-}
-
-.position-relative {
-  position: relative !important;
-}
-
-.position-fixed {
-  position: fixed !important;
-}
-
-.position-absolute {
-  position: absolute !important;
-}
-
-.position-sticky {
-  position: sticky !important;
-}
-
-.position-unset {
-  position: sticky !important;
-}
-
-//Position End
-
-/*      /DEFAULTS      */
-
 body {
-  font-family: $font-myriad;
+  font-family: $font-poppins;
   font-size: 16px;
   line-height: 1.5;
   border: 0;
@@ -266,3 +88,5 @@ a:hover, a:focus, a:active {
   width: 50px;
   height: 1px;
 }
+
+/*      /DEFAULTS      */

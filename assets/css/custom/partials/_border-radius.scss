@@ -1,0 +1,210 @@
+//Border Radius Start
+
+@for $i from 0 through 100 {
+
+  .border-radius-#{$i} {
+    -webkit-border-radius: #{$i}px !important;
+    border-radius: #{$i}px !important;
+  }
+
+  .border-radius-top-left-#{$i} {
+    -webkit-border-top-left-radius: #{$i}px !important;
+    border-top-left-radius: #{$i}px !important;
+  }
+
+  .border-radius-bottom-left-#{$i} {
+    -webkit-border-bottom-left-radius: #{$i}px !important;
+    border-bottom-left-radius: #{$i}px !important;
+  }
+
+  .border-radius-top-right-#{$i} {
+    -webkit-border-top-right-radius: #{$i}px !important;
+    border-top-right-radius: #{$i}px !important;
+  }
+
+  .border-radius-bottom-right-#{$i} {
+    -webkit-border-bottom-right-radius: #{$i}px !important;
+    border-bottom-right-radius: #{$i}px !important;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+  @for $i from 0 through 100 {
+
+    .border-radius-sm-#{$i} {
+      -webkit-border-radius: #{$i}px !important;
+      border-radius: #{$i}px !important;
+    }
+
+    .border-radius-sm-top-left-#{$i} {
+      -webkit-border-top-left-radius: #{$i}px !important;
+      border-top-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-sm-bottom-left-#{$i} {
+      -webkit-border-bottom-left-radius: #{$i}px !important;
+      border-bottom-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-sm-top-right-#{$i} {
+      -webkit-border-top-right-radius: #{$i}px !important;
+      border-top-right-radius: #{$i}px !important;
+    }
+
+    .border-radius-sm-bottom-right-#{$i} {
+      -webkit-border-bottom-right-radius: #{$i}px !important;
+      border-bottom-right-radius: #{$i}px !important;
+    }
+
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+  @for $i from 0 through 100 {
+
+    .border-radius-md-#{$i} {
+      -webkit-border-radius: #{$i}px !important;
+      border-radius: #{$i}px !important;
+    }
+
+    .border-radius-md-top-left-#{$i} {
+      -webkit-border-top-left-radius: #{$i}px !important;
+      border-top-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-md-bottom-left-#{$i} {
+      -webkit-border-bottom-left-radius: #{$i}px !important;
+      border-bottom-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-md-top-right-#{$i} {
+      -webkit-border-top-right-radius: #{$i}px !important;
+      border-top-right-radius: #{$i}px !important;
+    }
+
+    .border-radius-md-bottom-right-#{$i} {
+      -webkit-border-bottom-right-radius: #{$i}px !important;
+      border-bottom-right-radius: #{$i}px !important;
+    }
+
+  }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  @for $i from 0 through 100 {
+
+    .border-radius-lg-#{$i} {
+      -webkit-border-radius: #{$i}px !important;
+      border-radius: #{$i}px !important;
+    }
+
+    .border-radius-lg-top-left-#{$i} {
+      -webkit-border-top-left-radius: #{$i}px !important;
+      border-top-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-lg-bottom-left-#{$i} {
+      -webkit-border-bottom-left-radius: #{$i}px !important;
+      border-bottom-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-lg-top-right-#{$i} {
+      -webkit-border-top-right-radius: #{$i}px !important;
+      border-top-right-radius: #{$i}px !important;
+    }
+
+    .border-radius-lg-bottom-right-#{$i} {
+      -webkit-border-bottom-right-radius: #{$i}px !important;
+      border-bottom-right-radius: #{$i}px !important;
+    }
+
+  }
+
+}
+
+/* Customized Media Queries (min Width, 1024px and up) */
+@media (min-width: 1024px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+  @for $i from 0 through 100 {
+
+    .border-radius-xl-#{$i} {
+      -webkit-border-radius: #{$i}px !important;
+      border-radius: #{$i}px !important;
+    }
+
+    .border-radius-xl-top-left-#{$i} {
+      -webkit-border-top-left-radius: #{$i}px !important;
+      border-top-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-xl-bottom-left-#{$i} {
+      -webkit-border-bottom-left-radius: #{$i}px !important;
+      border-bottom-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-xl-top-right-#{$i} {
+      -webkit-border-top-right-radius: #{$i}px !important;
+      border-top-right-radius: #{$i}px !important;
+    }
+
+    .border-radius-xl-bottom-right-#{$i} {
+      -webkit-border-bottom-right-radius: #{$i}px !important;
+      border-bottom-right-radius: #{$i}px !important;
+    }
+
+  }
+
+}
+
+/* Extra extra large devices (1400px and up)*/
+@media (min-width: 1400px) {
+
+  @for $i from 0 through 100 {
+
+    .border-radius-xxl-#{$i} {
+      -webkit-border-radius: #{$i}px !important;
+      border-radius: #{$i}px !important;
+    }
+
+    .border-radius-xxl-top-left-#{$i} {
+      -webkit-border-top-left-radius: #{$i}px !important;
+      border-top-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-xxl-bottom-left-#{$i} {
+      -webkit-border-bottom-left-radius: #{$i}px !important;
+      border-bottom-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-xxl-top-right-#{$i} {
+      -webkit-border-top-right-radius: #{$i}px !important;
+      border-top-right-radius: #{$i}px !important;
+    }
+
+    .border-radius-xxl-bottom-right-#{$i} {
+      -webkit-border-bottom-right-radius: #{$i}px !important;
+      border-bottom-right-radius: #{$i}px !important;
+    }
+
+  }
+
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+}
+
+//Border Radius End

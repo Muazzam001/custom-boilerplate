@@ -1,18 +1,9 @@
-/*      NORMALIZE      */
-@import "helpers/normalize";
-/*      /NORMALIZE      */
-/*      ANIMATE      */
-@import "helpers/animate";
-/*      /ANIMATE      */
-@import "partials/variable";
-/*      FONTS      */
-@import "partials/fonts";
-/*      /FONTS      */
-/*      PARTIALS      */
-@import "partials/color";
-/*      /PARTIALS      */
 @import "defaults";
+
 @import "header";
+
 @import "main";
+
 @import "footer";
+
 @import "medias";
